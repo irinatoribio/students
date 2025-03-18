@@ -1,0 +1,123 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.purplebackground {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 500px;
+  background-color: #8056ff;
+  border: 1px solid #000;
+  margin-top: 25px;
+  margin-left: 25px;
+}
+
+.content {
+  position: relative;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 500px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  color: #8056ff;
+}
+.inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.input img {
+  width: 15px;
+  height: 15px;
+}
+
+input {
+  width: 250px;
+  height: 40px;
+  background-color: transparent;
+  border: none;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  padding-left: 7px;
+  gap: 10px;
+  border: none;
+  background-color: #edf2f7;
+  border-radius: 10px;
+}
+
+button.login {
+  width: 296px;
+  height: 40px;
+  background-color: #8056ff;
+  border: none;
+  border-radius: 10px;
+  font-family: "Poppins", serif;
+  font-weight: 200;
+  font-style: normal;
+  color: #ffffff;
+}
+
+.forgot-password {
+  font-size: 12px;
+  color: darkgray;
+}
+
+p {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid darkgray;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+  color: darkgray;
+}
+
+p span {
+  background: #fff;
+  padding: 0 10px;
+}
+
+.google {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border: 0.5px solid #000;
+  width: 280px;
+  height: 40px;
+}
+.google img {
+  width: 30px;
+}
+
+.signup {
+  font-size: 12px;
+  color: darkgray;
+}
