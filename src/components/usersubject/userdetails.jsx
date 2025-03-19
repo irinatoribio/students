@@ -18,6 +18,7 @@ import {
 import { userSubjects, assignSubjects } from "../../api/userSubjects";
 import { getAllSubjects } from "../../api/subjects";
 import "./userdetail.css";
+import { Details } from "@mui/icons-material";
 
 const UserDetails = () => {
   const { userId } = useParams();
@@ -114,7 +115,7 @@ const UserDetails = () => {
             />
 
             {editedUserSubjects.length > 0 && (
-              <Box sx={{ mt: 2 }}>
+              <Box className="details">
                 <Typography variant="subtitle1" sx={{ mb: 1 }}>
                   Assigned Subjects:
                 </Typography>

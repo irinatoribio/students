@@ -9,11 +9,11 @@ function Home() {
           <div className="purplebackground"></div>
           <div className="content">
             <div className="welcome">
-              <h2>Welcome to Express!</h2>
-              We offer an assortment of quality services to build and preserve
-              the public image of your brand. Our dedicated and experienced
-              professionals specialize in crisis communication, content
-              marketing and social media management.
+              <h2>Welcome to the Student Portal! </h2>
+              Your gateway to learning, growth, and success! Access your
+              courses, track your progress, and stay updated with the latest
+              announcements. Let's make learning an exciting journey together!"
+              Let me know if you want any specific tweaks! 😊
               <div className="icon">
                 <a
                   href="https://www.instagram.com/"

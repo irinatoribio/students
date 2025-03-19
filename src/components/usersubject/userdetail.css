@@ -29,3 +29,10 @@
   font-family: "Poppins", sans-serif;
   gap: 20px;
 }
+
+.details {
+  margin-top: 16px;
+  width: 100%;
+  max-width: 900px;
+  min-width: 900px;
+}

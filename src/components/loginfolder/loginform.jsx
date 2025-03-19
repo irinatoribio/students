@@ -69,7 +69,7 @@ const LoginForm = () => {
           title: "Logged in!",
           text: "You have successfully logged in!",
         }).then(() => {
-          navigate("/userlist");
+          navigate("/usersubjects");
         });
       } catch (error) {
         console.error("Error fetching data:", error);
